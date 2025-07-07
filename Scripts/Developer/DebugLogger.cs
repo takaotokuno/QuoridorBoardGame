@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DebugLogger{
     private static string logFilePath = Path.Combine(Application.persistentDataPath, "game_debug_log.txt");
-    //C:\Users\ttoku\AppData\LocalLow\DefaultCompany\quoridor
 
     public static void Log(string message){
         UnityEngine.Debug.Log(message);
